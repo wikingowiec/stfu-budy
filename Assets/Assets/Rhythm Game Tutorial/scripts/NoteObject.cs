@@ -8,6 +8,10 @@ public class NoteObject : MonoBehaviour {
 
     public KeyCode keyToPress;
 
+    
+
+    bool sucesHit;
+
     // Start is called before the first frame update
     void Start() {
         
@@ -19,6 +23,7 @@ public class NoteObject : MonoBehaviour {
         {
             if(canBePressed)
             {
+                sucesHit = true;
                 gameObject.SetActive(false);
 
                 GameManager.instance.NoteHit();
@@ -35,7 +40,7 @@ public class NoteObject : MonoBehaviour {
     }
     private void OnTriggerExit2D(Collider2D other)
     {
-        if(other.tag == "Activator")
+        if(other.tag == "Activator" && !sucesHit )
         {
             canBePressed = false;
 

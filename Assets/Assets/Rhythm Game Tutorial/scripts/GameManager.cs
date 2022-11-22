@@ -67,9 +67,9 @@ public class GameManager : MonoBehaviour
      {
         Debug.Log("Missed Note");
 
-       // currentMultiplier = 1;
-       // multilpierTracker = 0;
+       currentMultiplier = 1;
+        multilpierTracker = 0;
 
-       //  multiText.text = "Multiplier: x" + currentMultiplier; *
+        multiText.text = "Multiplier: x" + currentMultiplier; 
      }
 }
