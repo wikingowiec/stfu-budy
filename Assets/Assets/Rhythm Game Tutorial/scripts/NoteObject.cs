@@ -25,26 +25,34 @@ public class NoteObject : MonoBehaviour {
         {
             if(canBePressed)
             {
-                sucesHit = true;
+               // sucesHit = true;
                 gameObject.SetActive(false);
 
                 //GameManager.instance.NoteHit();
                 if(Mathf.Abs (transform.position.y) > 0.25)
                 {
                     Debug.Log("Hit");
+                 
                     GameManager.instance.NormalHit();
+                    
                     Instantiate(hitEffect, transform.position, hitEffect.transform.rotation );
-                } else if(Mathf.Abs (transform.position.y) > 0.05f)
+
+                } 
+                else if(Mathf.Abs (transform.position.y) > 0.05f)
                 {
                      Debug.Log("good");
+                   
                     GameManager.instance.goodHit();
-                    Instantiate(goodEffect, transform.position, goodEffect.transform.rotation );
-                } else
+                  Instantiate(goodEffect, transform.position, goodEffect.transform.rotation );
+
+                }
+                 else
 
                 {
                     Debug.Log("Perfect");
+                   
                     GameManager.instance.perfectHit();
-                    Instantiate(perfectEffect, transform.position, perfectEffect.transform.rotation );
+                   Instantiate(perfectEffect, transform.position, perfectEffect.transform.rotation );
                 }
             
             }
