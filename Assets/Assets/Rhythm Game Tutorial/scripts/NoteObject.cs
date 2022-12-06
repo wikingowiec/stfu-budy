@@ -25,7 +25,7 @@ public class NoteObject : MonoBehaviour {
         {
             if(canBePressed)
             {
-               // sucesHit = true;
+                sucesHit = true;
                 gameObject.SetActive(false);
 
                 //GameManager.instance.NoteHit();

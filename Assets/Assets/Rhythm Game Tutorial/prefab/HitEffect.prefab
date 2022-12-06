@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7218821154402605684}
   - component: {fileID: 7218821154402605682}
   m_Layer: 0
-  m_Name: HitEffect
+  m_Name: hitEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -125,7 +125,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7218821154757274308}
   m_LocalRotation: {x: -0, y: -0, z: -0.11320323, w: 0.9935719}
-  m_LocalPosition: {x: -2.8537228, y: 0.95162743, z: -0.2872599}
+  m_LocalPosition: {x: -0.07, y: 0.05, z: -0.2872599}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -147,7 +147,7 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -321,8 +321,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.16247335, g: 0.3301887, b: 0.047970798, a: 1}
-      maxColor: {r: 0.05927373, g: 0.8490566, b: 0.31328613, a: 1}
+      minColor: {r: 0.06602909, g: 0.04705882, b: 0.32941177, a: 1}
+      maxColor: {r: 0.05882351, g: 0.62443846, b: 0.8509804, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}

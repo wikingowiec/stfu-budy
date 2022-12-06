@@ -18,6 +18,6 @@ public class EffectObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       // Destroy(gameObject, Lifetime);
+      //  Destroy(gameObject, Lifetime);
     }
 }
