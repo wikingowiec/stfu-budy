@@ -42,7 +42,7 @@ public class NoteObject : MonoBehaviour {
                 {
                      Debug.Log("good");
                    
-                    GameManager.instance.goodHit();
+                    GameManager.instance.GoodHit();
                   Instantiate(goodEffect, transform.position, goodEffect.transform.rotation );
 
                 }
@@ -51,7 +51,7 @@ public class NoteObject : MonoBehaviour {
                 {
                     Debug.Log("Perfect");
                    
-                    GameManager.instance.perfectHit();
+                    GameManager.instance.PerfectHit();
                    Instantiate(perfectEffect, transform.position, perfectEffect.transform.rotation );
                 }
             
