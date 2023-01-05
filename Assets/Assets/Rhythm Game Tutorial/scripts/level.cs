@@ -11,6 +11,4 @@ public class level : MonoBehaviour
     public void StartGame() {
         SceneManager.LoadScene(gameStartScene);
     }
-
-
 }
