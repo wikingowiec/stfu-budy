@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
 
     public BeatScroller theBS;
 
+    public BeatScroller theBC;
+
     public static GameManager instance;
 
     public int currentMultiplier;
@@ -51,6 +53,7 @@ public class GameManager : MonoBehaviour
             {
                 startPlaying = true;
                 theBS.hasStarted = true;
+                theBC.hasStarted = true;
 
                 theMusic.Play();
             }
