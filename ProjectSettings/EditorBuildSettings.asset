@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/level 6.unity
     guid: 938978b11aaa53543944e69123e8acfc
+  - enabled: 1
+    path: Assets/Scenes/creditsus.unity
+    guid: db3b9382c904eac43913964b48bc10d8
   - enabled: 0
     path: Assets/Scenes/Start.unity
     guid: a7efac3f0da73e7439004acd29203987
